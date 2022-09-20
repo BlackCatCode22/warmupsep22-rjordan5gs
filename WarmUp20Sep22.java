@@ -31,7 +31,10 @@ public class WarmUp20Sep22 {
         // Write to the new file
         try {
             FileWriter writer = new FileWriter("C:/javaStuff/myFileWrite.txt");
-            writer.write("This is line one written to myFileWrite.txt!\n");
+            Scanner scanner = new Scanner(File);
+            while
+
+            writer.write("This is line one written to myFileWrite.txt!\n" * 100);
             writer.close();
             System.out.println("File write complete.");
         } catch (IOException e ){
